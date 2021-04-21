@@ -8,6 +8,7 @@ using AdvancedProgramming_Lesson2.Middlewares;
 using AdvancedProgramming_Lesson2.Data;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace AdvancedProgramming_Lesson2
 {
     public class Startup
@@ -26,6 +27,8 @@ namespace AdvancedProgramming_Lesson2
             services.AddControllersWithViews();
             services.AddDbContext<MvcContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("MvcContext")));
+            services.AddDbContext<MvcBookContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("MvcBookContext")));
 
             services.AddLocalization(options =>
             {
