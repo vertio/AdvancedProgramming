@@ -69,3 +69,10 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+.content {
+    display: flex;
+    text-align: justify;
+}
+.content-images {
+    padding: 0 0 0 10px;
+}

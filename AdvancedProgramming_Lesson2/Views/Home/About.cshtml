@@ -8,5 +8,26 @@
     ViewData["Title"] = SharedLocalizer["About"];
 }
 
-<h1>Mam na imię Jan Kowalski</h1>
-<h2>A to jest strona o mnie</h2>
+<link rel="stylesheet" type="text/css" href="~/css/site.css" />
+<div class="container">
+    <div class="header">
+        <h1 class="header-item text-center">O mnie</h1>
+    </div>
+    <div class="content">
+        <p>
+            Nazywam się Krzsztof Drzewiecki i jestem studentm 2 roku na WSB w chorzowie.
+            Moim kierunkiem jest informatyka wraz ze specjalizacją sieci i zabezpieczenia.
+            Rozwijam swoje umiejętności w zarządzaniu serwerami, administracji oraz wirtualizacji.
+            Również trochę poświęcam się zdobywniu umiejętnośi w bazach danych.
+            Hobistcznie uczę się programowania w JavaScript oraz Python.
+            Moim małym celem jest nauczyć się React oraz gatsby.js bo tak jakoś mi się podobają i wiele ciekawych rzeczy można w nich stworzyć.
+            Poza informatyką w wolnym czasie gram w koszykówkę oraz słucham muzyki.
+        </p>
+        <div class="content-images">
+            <img src="~/img/coffe.png" alt="coffe-images" />
+        </div>
+    </div>
+    <div class="footer-container">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Powrót do strony głównej</a>
+    </div>
+</div>
