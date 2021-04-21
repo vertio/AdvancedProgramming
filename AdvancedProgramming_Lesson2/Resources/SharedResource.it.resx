@@ -118,24 +118,24 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="About" xml:space="preserve">
-    <value>約</value>
+    <value>Di</value>
   </data>
   <data name="Home" xml:space="preserve">
-    <value>ホームホーム</value>
+    <value>Casa</value>
   </data>
   <data name="Learn End" xml:space="preserve">
-    <value>mvc.netコアアプリの作成について</value>
+    <value>creazione dell'applicazione asp.net core mvc</value>
   </data>
   <data name="Learn Start" xml:space="preserve">
-    <value>学ぶ</value>
+    <value>Imparare</value>
   </data>
   <data name="Privacy" xml:space="preserve">
-    <value>プライバシー</value>
+    <value>Privacy</value>
   </data>
   <data name="Privacy Policy" xml:space="preserve">
-    <value>個人情報保護方針</value>
+    <value>Politica sulla riservatezza</value>
   </data>
   <data name="Privacy Policy Content" xml:space="preserve">
-    <value>これは秘密です</value>
+    <value>Contenuto della politica sulla privacy</value>
   </data>
 </root>
