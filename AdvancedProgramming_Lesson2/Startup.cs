@@ -29,6 +29,9 @@ namespace AdvancedProgramming_Lesson2
                 options.UseSqlServer(Configuration.GetConnectionString("MvcContext")));
             services.AddDbContext<MvcBookContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("MvcBookContext")));
+            services.AddDbContext<MvcCinemaContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("MvcCinemaContext")));
+
 
             services.AddLocalization(options =>
             {
